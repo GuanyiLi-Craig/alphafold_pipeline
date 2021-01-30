@@ -4,3 +4,8 @@ alphafold/data/*
 
 alphafold/database/*
 !alphafold/database/README.md
+
+alphafold/models/*
+!alphafold/models/README.md
+
+alphafold/.ipynb_checkpoints/*
