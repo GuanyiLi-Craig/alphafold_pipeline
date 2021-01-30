@@ -3,3 +3,4 @@ alphafold/data/*
 !alphafold/data/T0955/T0955.seq
 
 alphafold/database/*
+!alphafold/database/README.md
