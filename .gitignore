@@ -1,0 +1,11 @@
+alphafold/data/*
+!alphafold/data/README.md
+!alphafold/data/T0955/T0955.seq
+
+alphafold/database/*
+!alphafold/database/README.md
+
+alphafold/models/*
+!alphafold/models/README.md
+
+alphafold/.ipynb_checkpoints/*
