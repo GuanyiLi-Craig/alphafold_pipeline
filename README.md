@@ -12,8 +12,11 @@ sudo docker build -t alphafold_pipeline .
 
 [pic]
 
-### Start Docker by
+### Start
 
+1. Move HHBlist database to <path-to-this-git-directory>/alphafold/database
+2. Move sequence data to <path-to-this-git-directory>/alphafold/data/<Target>/
+3. Start Docker by 
 ```bash
 sudo docker run -d -p 8888:8888 --gpus all --ipc=host -v <path-to-directory>/alphafold:/data alphafold_pipeline jupyter notebook --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token= --notebook-dir='/data'
 ```
